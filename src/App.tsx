@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import {AutoComplete, AutoCompleteCompleteEvent} from "primereact/autocomplete";
 import allItems from './items.json';
-import ItemMarketDetails from "./ItemMarketDetails";
+import ItemMarketDetails from "./components/ItemMarketDetails";
 import {useAsync, useAsyncFn} from "react-use";
 import {ProgressSpinner} from "primereact/progressspinner";
-import {MarketItemData} from "./MarketItemData";
+import {MarketItemData} from "./components/MarketItemData";
 import {Item} from "./Item";
 import {Button} from "primereact/button";
 import {Dropdown} from "primereact/dropdown";

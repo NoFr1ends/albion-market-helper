@@ -1,5 +1,5 @@
 import {Card} from "primereact/card";
-import {Item} from "./Item";
+import {Item} from "../Item";
 import {MarketItemData} from "./MarketItemData";
 import {Message} from "primereact/message";
 
